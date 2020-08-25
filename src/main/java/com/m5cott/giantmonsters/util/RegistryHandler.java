@@ -18,5 +18,6 @@ public class RegistryHandler {
 
     // Items
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    public static final RegistryObject<Item> POLISHED_STONE_SWORD = ITEMS.register("polished_stone_sword", ItemBase::new);
 
 }
